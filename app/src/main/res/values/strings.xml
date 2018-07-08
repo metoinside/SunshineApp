@@ -1,3 +1,11 @@
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
     <string name="app_name">Sunshine</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Temperature format in Celsius [CHAR LIMIT=5] -->
+    <string name="format_temperature_celsius">
+        <xliff:g id="temp">%1.0f</xliff:g>\u00B0C
+    </string>
 </resources>
