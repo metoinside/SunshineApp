@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Async class
-    public static class GetWeatherTask extends AsyncTask<String, Void, String[]> {
+    public class GetWeatherTask extends AsyncTask<String, Void, String[]> {
 
         @Override
         protected String[] doInBackground(String... strings) {
